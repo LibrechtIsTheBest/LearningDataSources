@@ -4,25 +4,24 @@
 
 + (instancetype)photoWithImageName:(NSString *)imageName
     comment:(NSString *)comment
-    type:(PhotoType *)type
-    point:(ANIPoint *)point
 {
-    return [[self alloc] initWithImageName:imageName comment:comment type:type point:point];
+    return [[self alloc] initWithImageName:imageName comment:comment];
 }
 
 - (instancetype)initWithImageName:(NSString *)imageName
     comment:(NSString *)comment
-    type:(PhotoType *)type
-    point:(ANIPoint *)point
 {
     self = [super init];
     if (self) {
         _imageName = [imageName copy];
         _comment = [comment copy];
-        _type = type;
-        _point = point;
     }
     return self;
+}
+
+- (NSString *)description
+{
+    return [NSString stringWithFormat:@"%@: image: %@ comment: %@", super.description, self.imageName, self.comment];
 }
 
 @end

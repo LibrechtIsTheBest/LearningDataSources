@@ -8,7 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		D21F6510AAD5614C09CE1EB1 /* NSArray+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = D21F6E595E119E3F0A866CEE /* NSArray+Helper.m */; };
+		D21F6635EC74DD00842B1754 /* PhotoViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D21F6B5172AFDCE87B9156AB /* PhotoViewModel.m */; };
 		D21F66F4BF40010102AC8467 /* ANIPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = D21F6106CEA79A8E12DE48B4 /* ANIPoint.m */; };
+		D21F67FCB2D2FCBDB56D2F40 /* PointHeaderViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D21F636A688BCC684CEC2B73 /* PointHeaderViewModel.m */; };
 		D21F682927B4A38B1ACD8D5A /* BaseDataSource+Protected.m in Sources */ = {isa = PBXBuildFile; fileRef = D21F67A8390E1CBA66BC5E4D /* BaseDataSource+Protected.m */; };
 		D21F6DFFAD597D4DC8B56C82 /* GroupObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D21F68C73B32A579C949A051 /* GroupObject.m */; };
 		F5BDE6E01EA237A2005B3E52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BDE6DF1EA237A2005B3E52 /* main.m */; };
@@ -45,9 +47,13 @@
 
 /* Begin PBXFileReference section */
 		D21F6106CEA79A8E12DE48B4 /* ANIPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANIPoint.m; sourceTree = "<group>"; };
+		D21F636A688BCC684CEC2B73 /* PointHeaderViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointHeaderViewModel.m; sourceTree = "<group>"; };
+		D21F6772AD9269BB6A59D383 /* PhotoViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewModel.h; sourceTree = "<group>"; };
 		D21F67A8390E1CBA66BC5E4D /* BaseDataSource+Protected.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BaseDataSource+Protected.m"; sourceTree = "<group>"; };
+		D21F67EB4C7A0285A9D14096 /* PointHeaderViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointHeaderViewModel.h; sourceTree = "<group>"; };
 		D21F68C73B32A579C949A051 /* GroupObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupObject.m; sourceTree = "<group>"; };
 		D21F6A50BD086678D5E52280 /* ANIPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANIPoint.h; sourceTree = "<group>"; };
+		D21F6B5172AFDCE87B9156AB /* PhotoViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewModel.m; sourceTree = "<group>"; };
 		D21F6D3550B477148A154627 /* GroupObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupObject.h; sourceTree = "<group>"; };
 		D21F6E595E119E3F0A866CEE /* NSArray+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Helper.m"; sourceTree = "<group>"; };
 		D21F6EAB5E67A9EF3381BA9A /* BaseDataSource+Protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BaseDataSource+Protected.h"; sourceTree = "<group>"; };
@@ -196,6 +202,10 @@
 			children = (
 				F5BDE7A11EA7C1F0005B3E52 /* PhotoTypeHeaderViewModel.h */,
 				F5BDE7A21EA7C1F0005B3E52 /* PhotoTypeHeaderViewModel.m */,
+				D21F67EB4C7A0285A9D14096 /* PointHeaderViewModel.h */,
+				D21F636A688BCC684CEC2B73 /* PointHeaderViewModel.m */,
+				D21F6B5172AFDCE87B9156AB /* PhotoViewModel.m */,
+				D21F6772AD9269BB6A59D383 /* PhotoViewModel.h */,
 			);
 			name = ViewModels;
 			sourceTree = "<group>";
@@ -378,6 +388,8 @@
 				D21F6DFFAD597D4DC8B56C82 /* GroupObject.m in Sources */,
 				D21F6510AAD5614C09CE1EB1 /* NSArray+Helper.m in Sources */,
 				D21F66F4BF40010102AC8467 /* ANIPoint.m in Sources */,
+				D21F67FCB2D2FCBDB56D2F40 /* PointHeaderViewModel.m in Sources */,
+				D21F6635EC74DD00842B1754 /* PhotoViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

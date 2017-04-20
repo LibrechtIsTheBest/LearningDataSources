@@ -15,8 +15,8 @@
     if (self) {
         _photoType = photoType;
         _title = [NSString stringWithFormat:@"All photos in category: %@", photoType.name];
-        _subtitle = [NSString stringWithFormat:@"X / %@", @(photoType.requaredQuantity)];
-        _backgroundColor = photoType.requaredQuantity > 5 ? [UIColor redColor] : [UIColor blackColor];
+        _subtitle = [NSString stringWithFormat:@"X / %@", @(photoType.requiredQuantity)];
+        _backgroundColor = photoType.requiredQuantity > 5 ? [UIColor redColor] : [UIColor blackColor];
     }
     return self;
 }

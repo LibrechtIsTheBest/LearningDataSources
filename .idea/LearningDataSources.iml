@@ -4,33 +4,37 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/LearningDataSourcesTests/LearningDataSourcesTests.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LearningDataSourcesTests/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/AppDelegate.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/AppDelegate.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/Info.plist" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/main.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/BaseDataSource.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/BaseDataSource+Protected.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/ViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/PhotoTypeHeaderViewModel.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/Assets.xcassets" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/PhotoTypeHeaderViewModel.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/BaseDataSource+Protected.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/PhotoType.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/ViewController.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/Photo.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/NSArray+Helper.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/PhotoType.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/ANIPoint.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/main.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/PhotoTypeDataSource.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/Photo.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/Base.lproj/LaunchScreen.storyboard" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/Base.lproj/Main.storyboard" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/PhotoType.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/ANIPoint.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/PhotoType.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/ANIPoint.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/PhotoTypeDataSource.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/BaseDataSource.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/AppDelegate.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/GroupObject.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/AppDelegate.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/NSArray+Helper.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/GroupObject.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/BaseDataSource+Protected.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/NSArray+Helper.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/PhotoTypeDataSource.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/Photo.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/BaseDataSource+Protected.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/BaseDataSource.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/BaseDataSource.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/PhotoViewModel.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/Assets.xcassets" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/PhotoViewModel.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/ViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/PhotoTypeHeaderViewModel.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/PointHeaderViewModel.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/ViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/PhotoTypeHeaderViewModel.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/GroupObject.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/PointHeaderViewModel.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LearningDataSourcesUITests/LearningDataSourcesUITests.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LearningDataSourcesUITests/Info.plist" isTestSource="false" />
     </content>

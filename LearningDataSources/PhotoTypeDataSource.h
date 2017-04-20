@@ -1,9 +1,9 @@
 #import "BaseDataSource.h"
 
-@class PhotoType;
+@class ANIPoint, PhotoType, PhotoTypeHeaderViewModel, PhotoViewModel;
 
 @interface PhotoTypeDataSource : BaseDataSource
 
-- (instancetype)initWithPhotoType:(PhotoType *)photoType;
+- (instancetype)initWithPoints:(NSArray <ANIPoint *> *)points photoType:(PhotoType *)photoType;
 
 @end

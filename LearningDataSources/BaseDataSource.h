@@ -1,10 +1,10 @@
 #import <Foundation/Foundation.h>
 
-@interface BaseDataSource : NSObject
+@interface BaseDataSource <__covariant ObjType> : NSObject
 
 - (NSUInteger)numberOfGroups;
 - (NSUInteger)numberOfObjectsInGroup:(NSUInteger)groupIndex;
-- (id)objectAtIndex:(NSUInteger)index inGroup:(NSUInteger)groupIndex;
+- (ObjType)objectAtIndex:(NSUInteger)index inGroup:(NSUInteger)groupIndex;
 - (id)headerObjectOfGroup:(NSUInteger)groupIndex;
 - (id)footerObjectOfGroup:(NSUInteger)groupIndex;
 

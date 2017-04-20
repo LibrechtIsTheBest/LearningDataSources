@@ -2,6 +2,6 @@
 
 @interface NSArray <__covariant ObjectType> (Helper)
 
-- (instancetype)map:(ObjectType(^)(ObjectType *obj))transform;
+- (instancetype)map:(id(^)(ObjectType obj))transform;
 
 @end

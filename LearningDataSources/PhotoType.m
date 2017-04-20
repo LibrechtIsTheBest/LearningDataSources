@@ -1,4 +1,5 @@
 #import "PhotoType.h"
+#import "Photo.h"
 
 @implementation PhotoType
 
@@ -11,7 +12,9 @@
         _name = [name copy];
         _requiredQuantity = requiredQuantity;
         _photos = photos;
-        
+        for (Photo *photo in photos) {
+            photo.type = self;
+        }
     }
     return self;
 }
