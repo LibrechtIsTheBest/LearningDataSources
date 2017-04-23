@@ -1,18 +1,18 @@
-#import "PhotoType.h"
-#import "Photo.h"
+#import "NVPhotoType.h"
+#import "NVPhoto.h"
 
-@implementation PhotoType
+@implementation NVPhotoType
 
 - (instancetype)initWithName:(NSString *)name
     requiredQuantity:(NSUInteger)requiredQuantity
-    photos:(NSArray<Photo *> *)photos
+    photos:(NSArray<NVPhoto *> *)photos
 {
     self = [super init];
     if (self) {
         _name = [name copy];
         _requiredQuantity = requiredQuantity;
         _photos = photos;
-        for (Photo *photo in photos) {
+        for (NVPhoto *photo in photos) {
             photo.type = self;
         }
     }

@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D21F6510AAD5614C09CE1EB1 /* NSArray+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = D21F6E595E119E3F0A866CEE /* NSArray+Helper.m */; };
-		D21F6635EC74DD00842B1754 /* PhotoViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D21F6B5172AFDCE87B9156AB /* PhotoViewModel.m */; };
-		D21F66F4BF40010102AC8467 /* ANIPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = D21F6106CEA79A8E12DE48B4 /* ANIPoint.m */; };
-		D21F67FCB2D2FCBDB56D2F40 /* PointHeaderViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D21F636A688BCC684CEC2B73 /* PointHeaderViewModel.m */; };
-		D21F682927B4A38B1ACD8D5A /* BaseDataSource+Protected.m in Sources */ = {isa = PBXBuildFile; fileRef = D21F67A8390E1CBA66BC5E4D /* BaseDataSource+Protected.m */; };
-		D21F6DFFAD597D4DC8B56C82 /* GroupObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D21F68C73B32A579C949A051 /* GroupObject.m */; };
+		D21F646416A93821A985FA84 /* NVPhotoTypeDataSourceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = D21F6734743FD9148A2AEF87 /* NVPhotoTypeDataSourceFactory.m */; };
+		D21F6510AAD5614C09CE1EB1 /* NSArray+NVHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D21F6E595E119E3F0A866CEE /* NSArray+NVHelper.m */; };
+		D21F6635EC74DD00842B1754 /* NVPhotoViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D21F6B5172AFDCE87B9156AB /* NVPhotoViewModel.m */; };
+		D21F66F4BF40010102AC8467 /* NVPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = D21F6106CEA79A8E12DE48B4 /* NVPoint.m */; };
+		D21F67FCB2D2FCBDB56D2F40 /* NVPointHeaderViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D21F636A688BCC684CEC2B73 /* NVPointHeaderViewModel.m */; };
+		D21F6ABE892F2572668C712D /* NVElementObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D21F62F45A63E34CD994C2CF /* NVElementObject.m */; };
+		D21F6C30F82810BA911F657A /* NVGroupObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D21F6040CA7D19A3DE7C93CE /* NVGroupObject.m */; };
+		D21F6C7E3D36D1B44A7BE92B /* UIView+NVReusable.m in Sources */ = {isa = PBXBuildFile; fileRef = D21F61C839BAE89362C0A271 /* UIView+NVReusable.m */; };
+		F53B0CA91EABB6CB0008F88A /* NVPhotosInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = F53B0CA81EABB6CB0008F88A /* NVPhotosInteractor.m */; };
 		F5BDE6E01EA237A2005B3E52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BDE6DF1EA237A2005B3E52 /* main.m */; };
 		F5BDE6E31EA237A2005B3E52 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BDE6E21EA237A2005B3E52 /* AppDelegate.m */; };
 		F5BDE6E61EA237A2005B3E52 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BDE6E51EA237A2005B3E52 /* ViewController.m */; };
@@ -21,11 +24,19 @@
 		F5BDE6EE1EA237A2005B3E52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5BDE6EC1EA237A2005B3E52 /* LaunchScreen.storyboard */; };
 		F5BDE6F91EA237A2005B3E52 /* LearningDataSourcesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BDE6F81EA237A2005B3E52 /* LearningDataSourcesTests.m */; };
 		F5BDE7041EA237A2005B3E52 /* LearningDataSourcesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BDE7031EA237A2005B3E52 /* LearningDataSourcesUITests.m */; };
-		F5BDE7981EA7B8DC005B3E52 /* BaseDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BDE7971EA7B8DC005B3E52 /* BaseDataSource.m */; };
-		F5BDE7A31EA7C1F0005B3E52 /* PhotoTypeHeaderViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BDE7A21EA7C1F0005B3E52 /* PhotoTypeHeaderViewModel.m */; };
-		F5BDE7A81EA7C26C005B3E52 /* PhotoType.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BDE7A71EA7C26C005B3E52 /* PhotoType.m */; };
-		F5BDE7AB1EA7C4A0005B3E52 /* PhotoTypeDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BDE7AA1EA7C4A0005B3E52 /* PhotoTypeDataSource.m */; };
-		F5BDE7AF1EA7C5E1005B3E52 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BDE7AE1EA7C5E1005B3E52 /* Photo.m */; };
+		F5BDE7981EA7B8DC005B3E52 /* NVDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BDE7971EA7B8DC005B3E52 /* NVDataSource.m */; };
+		F5BDE7A31EA7C1F0005B3E52 /* NVPhotoTypeHeaderViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BDE7A21EA7C1F0005B3E52 /* NVPhotoTypeHeaderViewModel.m */; };
+		F5BDE7A81EA7C26C005B3E52 /* NVPhotoType.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BDE7A71EA7C26C005B3E52 /* NVPhotoType.m */; };
+		F5BDE7AF1EA7C5E1005B3E52 /* NVPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BDE7AE1EA7C5E1005B3E52 /* NVPhoto.m */; };
+		F5C3DF031EACD6930004EF50 /* NVPhotoTypeDataSourceAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C3DF021EACD6930004EF50 /* NVPhotoTypeDataSourceAdapter.m */; };
+		F5C3DF081EACD7630004EF50 /* NVPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C3DF061EACD7630004EF50 /* NVPhotoCollectionViewCell.m */; };
+		F5C3DF091EACD7630004EF50 /* NVPhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5C3DF071EACD7630004EF50 /* NVPhotoCollectionViewCell.xib */; };
+		F5C3DF111EACEBB60004EF50 /* NVPhotoTypeCollectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C3DF0F1EACEBB60004EF50 /* NVPhotoTypeCollectionHeaderView.m */; };
+		F5C3DF121EACEBB60004EF50 /* NVPhotoTypeCollectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5C3DF101EACEBB60004EF50 /* NVPhotoTypeCollectionHeaderView.xib */; };
+		F5C3DF161EACF33E0004EF50 /* UIView+NVLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C3DF151EACF33E0004EF50 /* UIView+NVLayout.m */; };
+		F5C3DF1A1EAD07D10004EF50 /* NVPointCollectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C3DF181EAD07D10004EF50 /* NVPointCollectionHeaderView.m */; };
+		F5C3DF1B1EAD07D10004EF50 /* NVPointCollectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5C3DF191EAD07D10004EF50 /* NVPointCollectionHeaderView.xib */; };
+		F5C3DF1E1EAD179B0004EF50 /* NVCollectionViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C3DF1D1EAD179B0004EF50 /* NVCollectionViewDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,18 +57,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D21F6106CEA79A8E12DE48B4 /* ANIPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANIPoint.m; sourceTree = "<group>"; };
-		D21F636A688BCC684CEC2B73 /* PointHeaderViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointHeaderViewModel.m; sourceTree = "<group>"; };
-		D21F6772AD9269BB6A59D383 /* PhotoViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewModel.h; sourceTree = "<group>"; };
-		D21F67A8390E1CBA66BC5E4D /* BaseDataSource+Protected.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BaseDataSource+Protected.m"; sourceTree = "<group>"; };
-		D21F67EB4C7A0285A9D14096 /* PointHeaderViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointHeaderViewModel.h; sourceTree = "<group>"; };
-		D21F68C73B32A579C949A051 /* GroupObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupObject.m; sourceTree = "<group>"; };
-		D21F6A50BD086678D5E52280 /* ANIPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANIPoint.h; sourceTree = "<group>"; };
-		D21F6B5172AFDCE87B9156AB /* PhotoViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewModel.m; sourceTree = "<group>"; };
-		D21F6D3550B477148A154627 /* GroupObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupObject.h; sourceTree = "<group>"; };
-		D21F6E595E119E3F0A866CEE /* NSArray+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Helper.m"; sourceTree = "<group>"; };
-		D21F6EAB5E67A9EF3381BA9A /* BaseDataSource+Protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BaseDataSource+Protected.h"; sourceTree = "<group>"; };
-		D21F6FA93ED536786B7281B7 /* NSArray+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Helper.h"; sourceTree = "<group>"; };
+		D21F6040CA7D19A3DE7C93CE /* NVGroupObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVGroupObject.m; sourceTree = "<group>"; };
+		D21F6106CEA79A8E12DE48B4 /* NVPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVPoint.m; sourceTree = "<group>"; };
+		D21F61C839BAE89362C0A271 /* UIView+NVReusable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+NVReusable.m"; sourceTree = "<group>"; };
+		D21F62F45A63E34CD994C2CF /* NVElementObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVElementObject.m; sourceTree = "<group>"; };
+		D21F636A688BCC684CEC2B73 /* NVPointHeaderViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVPointHeaderViewModel.m; sourceTree = "<group>"; };
+		D21F66F2795CD1A095E7CE4F /* UIView+NVReusable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+NVReusable.h"; sourceTree = "<group>"; };
+		D21F6734743FD9148A2AEF87 /* NVPhotoTypeDataSourceFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVPhotoTypeDataSourceFactory.m; sourceTree = "<group>"; };
+		D21F6772AD9269BB6A59D383 /* NVPhotoViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVPhotoViewModel.h; sourceTree = "<group>"; };
+		D21F67744983DCB63BB8E112 /* NVPhotoTypeDataSourceFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVPhotoTypeDataSourceFactory.h; sourceTree = "<group>"; };
+		D21F67EB4C7A0285A9D14096 /* NVPointHeaderViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVPointHeaderViewModel.h; sourceTree = "<group>"; };
+		D21F68399523A98E19159F20 /* NVGroupObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVGroupObject.h; sourceTree = "<group>"; };
+		D21F6A50BD086678D5E52280 /* NVPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVPoint.h; sourceTree = "<group>"; };
+		D21F6B5172AFDCE87B9156AB /* NVPhotoViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVPhotoViewModel.m; sourceTree = "<group>"; };
+		D21F6D6DC18357ABD5D14095 /* NVElementObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVElementObject.h; sourceTree = "<group>"; };
+		D21F6E595E119E3F0A866CEE /* NSArray+NVHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+NVHelper.m"; sourceTree = "<group>"; };
+		D21F6FA93ED536786B7281B7 /* NSArray+NVHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+NVHelper.h"; sourceTree = "<group>"; };
+		F53B0CA71EABB6CB0008F88A /* NVPhotosInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVPhotosInteractor.h; sourceTree = "<group>"; };
+		F53B0CA81EABB6CB0008F88A /* NVPhotosInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVPhotosInteractor.m; sourceTree = "<group>"; };
 		F5BDE6DB1EA237A2005B3E52 /* LearningDataSources.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningDataSources.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5BDE6DF1EA237A2005B3E52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F5BDE6E11EA237A2005B3E52 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -74,16 +91,30 @@
 		F5BDE6FF1EA237A2005B3E52 /* LearningDataSourcesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearningDataSourcesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5BDE7031EA237A2005B3E52 /* LearningDataSourcesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearningDataSourcesUITests.m; sourceTree = "<group>"; };
 		F5BDE7051EA237A2005B3E52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F5BDE7961EA7B8DC005B3E52 /* BaseDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDataSource.h; sourceTree = "<group>"; };
-		F5BDE7971EA7B8DC005B3E52 /* BaseDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseDataSource.m; sourceTree = "<group>"; };
-		F5BDE7A11EA7C1F0005B3E52 /* PhotoTypeHeaderViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoTypeHeaderViewModel.h; sourceTree = "<group>"; };
-		F5BDE7A21EA7C1F0005B3E52 /* PhotoTypeHeaderViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoTypeHeaderViewModel.m; sourceTree = "<group>"; };
-		F5BDE7A61EA7C26C005B3E52 /* PhotoType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoType.h; sourceTree = "<group>"; };
-		F5BDE7A71EA7C26C005B3E52 /* PhotoType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoType.m; sourceTree = "<group>"; };
-		F5BDE7A91EA7C4A0005B3E52 /* PhotoTypeDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoTypeDataSource.h; sourceTree = "<group>"; };
-		F5BDE7AA1EA7C4A0005B3E52 /* PhotoTypeDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoTypeDataSource.m; sourceTree = "<group>"; };
-		F5BDE7AD1EA7C5E1005B3E52 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
-		F5BDE7AE1EA7C5E1005B3E52 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		F5BDE7961EA7B8DC005B3E52 /* NVDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVDataSource.h; sourceTree = "<group>"; };
+		F5BDE7971EA7B8DC005B3E52 /* NVDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVDataSource.m; sourceTree = "<group>"; };
+		F5BDE7A11EA7C1F0005B3E52 /* NVPhotoTypeHeaderViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVPhotoTypeHeaderViewModel.h; sourceTree = "<group>"; };
+		F5BDE7A21EA7C1F0005B3E52 /* NVPhotoTypeHeaderViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVPhotoTypeHeaderViewModel.m; sourceTree = "<group>"; };
+		F5BDE7A61EA7C26C005B3E52 /* NVPhotoType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVPhotoType.h; sourceTree = "<group>"; };
+		F5BDE7A71EA7C26C005B3E52 /* NVPhotoType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVPhotoType.m; sourceTree = "<group>"; };
+		F5BDE7AD1EA7C5E1005B3E52 /* NVPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVPhoto.h; sourceTree = "<group>"; };
+		F5BDE7AE1EA7C5E1005B3E52 /* NVPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVPhoto.m; sourceTree = "<group>"; };
+		F5C3DF011EACD6930004EF50 /* NVPhotoTypeDataSourceAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVPhotoTypeDataSourceAdapter.h; sourceTree = "<group>"; };
+		F5C3DF021EACD6930004EF50 /* NVPhotoTypeDataSourceAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVPhotoTypeDataSourceAdapter.m; sourceTree = "<group>"; };
+		F5C3DF051EACD7630004EF50 /* NVPhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVPhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		F5C3DF061EACD7630004EF50 /* NVPhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVPhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		F5C3DF071EACD7630004EF50 /* NVPhotoCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NVPhotoCollectionViewCell.xib; sourceTree = "<group>"; };
+		F5C3DF0E1EACEBB60004EF50 /* NVPhotoTypeCollectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVPhotoTypeCollectionHeaderView.h; sourceTree = "<group>"; };
+		F5C3DF0F1EACEBB60004EF50 /* NVPhotoTypeCollectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVPhotoTypeCollectionHeaderView.m; sourceTree = "<group>"; };
+		F5C3DF101EACEBB60004EF50 /* NVPhotoTypeCollectionHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NVPhotoTypeCollectionHeaderView.xib; sourceTree = "<group>"; };
+		F5C3DF131EACEC560004EF50 /* NVViewModelConfigurable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NVViewModelConfigurable.h; sourceTree = "<group>"; };
+		F5C3DF141EACF33E0004EF50 /* UIView+NVLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+NVLayout.h"; sourceTree = "<group>"; };
+		F5C3DF151EACF33E0004EF50 /* UIView+NVLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+NVLayout.m"; sourceTree = "<group>"; };
+		F5C3DF171EAD07D10004EF50 /* NVPointCollectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVPointCollectionHeaderView.h; sourceTree = "<group>"; };
+		F5C3DF181EAD07D10004EF50 /* NVPointCollectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVPointCollectionHeaderView.m; sourceTree = "<group>"; };
+		F5C3DF191EAD07D10004EF50 /* NVPointCollectionHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NVPointCollectionHeaderView.xib; sourceTree = "<group>"; };
+		F5C3DF1C1EAD179B0004EF50 /* NVCollectionViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVCollectionViewDelegate.h; sourceTree = "<group>"; };
+		F5C3DF1D1EAD179B0004EF50 /* NVCollectionViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVCollectionViewDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +142,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F53B0CA11EABB4EC0008F88A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F5BDE7991EA7BA0C005B3E52 /* DataSource */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		F53B0CA21EABB50F0008F88A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F5BDE6E41EA237A2005B3E52 /* ViewController.h */,
+				F5BDE6E51EA237A2005B3E52 /* ViewController.m */,
+				F53B0CA31EABB53E0008F88A /* Support */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F53B0CA31EABB53E0008F88A /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				D21F67744983DCB63BB8E112 /* NVPhotoTypeDataSourceFactory.h */,
+				D21F6734743FD9148A2AEF87 /* NVPhotoTypeDataSourceFactory.m */,
+				F5C3DF011EACD6930004EF50 /* NVPhotoTypeDataSourceAdapter.h */,
+				F5C3DF021EACD6930004EF50 /* NVPhotoTypeDataSourceAdapter.m */,
+				F5C3DF1C1EAD179B0004EF50 /* NVCollectionViewDelegate.h */,
+				F5C3DF1D1EAD179B0004EF50 /* NVCollectionViewDelegate.m */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		F53B0CA41EABB5680008F88A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F5BDE6EC1EA237A2005B3E52 /* LaunchScreen.storyboard */,
+				F5BDE6E71EA237A2005B3E52 /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		F53B0CA61EABB5AC0008F88A /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				F53B0CA71EABB6CB0008F88A /* NVPhotosInteractor.h */,
+				F53B0CA81EABB6CB0008F88A /* NVPhotosInteractor.m */,
+			);
+			name = Interactor;
+			sourceTree = "<group>";
+		};
 		F5BDE6D21EA237A2005B3E52 = {
 			isa = PBXGroup;
 			children = (
@@ -134,17 +214,17 @@
 		F5BDE6DD1EA237A2005B3E52 /* LearningDataSources */ = {
 			isa = PBXGroup;
 			children = (
+				F5BDE6E11EA237A2005B3E52 /* AppDelegate.h */,
+				F5BDE6E21EA237A2005B3E52 /* AppDelegate.m */,
+				F53B0CA11EABB4EC0008F88A /* Core */,
 				F5BDE7B01EA7C999005B3E52 /* Helpers */,
 				F5BDE7A51EA7C25A005B3E52 /* Models */,
 				F5BDE7A41EA7C1F7005B3E52 /* ViewModels */,
-				F5BDE7991EA7BA0C005B3E52 /* DataSource */,
-				F5BDE6E11EA237A2005B3E52 /* AppDelegate.h */,
-				F5BDE6E21EA237A2005B3E52 /* AppDelegate.m */,
-				F5BDE6E41EA237A2005B3E52 /* ViewController.h */,
-				F5BDE6E51EA237A2005B3E52 /* ViewController.m */,
-				F5BDE6E71EA237A2005B3E52 /* Main.storyboard */,
+				F53B0CA61EABB5AC0008F88A /* Interactor */,
+				F53B0CA21EABB50F0008F88A /* ViewControllers */,
+				F5C3DF041EACD7490004EF50 /* Views */,
+				F53B0CA41EABB5680008F88A /* Storyboards */,
 				F5BDE6EA1EA237A2005B3E52 /* Assets.xcassets */,
-				F5BDE6EC1EA237A2005B3E52 /* LaunchScreen.storyboard */,
 				F5BDE6EF1EA237A2005B3E52 /* Info.plist */,
 				F5BDE6DE1EA237A2005B3E52 /* Supporting Files */,
 			);
@@ -180,32 +260,25 @@
 		F5BDE7991EA7BA0C005B3E52 /* DataSource */ = {
 			isa = PBXGroup;
 			children = (
-				F5BDE7961EA7B8DC005B3E52 /* BaseDataSource.h */,
-				F5BDE7971EA7B8DC005B3E52 /* BaseDataSource.m */,
-				F5BDE7A91EA7C4A0005B3E52 /* PhotoTypeDataSource.h */,
-				F5BDE7AA1EA7C4A0005B3E52 /* PhotoTypeDataSource.m */,
-				F5BDE7AC1EA7C4C7005B3E52 /* Protected */,
-				F5BDE79A1EA7BA19005B3E52 /* Private */,
+				F5BDE7961EA7B8DC005B3E52 /* NVDataSource.h */,
+				F5BDE7971EA7B8DC005B3E52 /* NVDataSource.m */,
+				D21F68399523A98E19159F20 /* NVGroupObject.h */,
+				D21F6040CA7D19A3DE7C93CE /* NVGroupObject.m */,
+				D21F6D6DC18357ABD5D14095 /* NVElementObject.h */,
+				D21F62F45A63E34CD994C2CF /* NVElementObject.m */,
 			);
 			name = DataSource;
-			sourceTree = "<group>";
-		};
-		F5BDE79A1EA7BA19005B3E52 /* Private */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Private;
 			sourceTree = "<group>";
 		};
 		F5BDE7A41EA7C1F7005B3E52 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				F5BDE7A11EA7C1F0005B3E52 /* PhotoTypeHeaderViewModel.h */,
-				F5BDE7A21EA7C1F0005B3E52 /* PhotoTypeHeaderViewModel.m */,
-				D21F67EB4C7A0285A9D14096 /* PointHeaderViewModel.h */,
-				D21F636A688BCC684CEC2B73 /* PointHeaderViewModel.m */,
-				D21F6B5172AFDCE87B9156AB /* PhotoViewModel.m */,
-				D21F6772AD9269BB6A59D383 /* PhotoViewModel.h */,
+				F5BDE7A11EA7C1F0005B3E52 /* NVPhotoTypeHeaderViewModel.h */,
+				F5BDE7A21EA7C1F0005B3E52 /* NVPhotoTypeHeaderViewModel.m */,
+				D21F67EB4C7A0285A9D14096 /* NVPointHeaderViewModel.h */,
+				D21F636A688BCC684CEC2B73 /* NVPointHeaderViewModel.m */,
+				D21F6772AD9269BB6A59D383 /* NVPhotoViewModel.h */,
+				D21F6B5172AFDCE87B9156AB /* NVPhotoViewModel.m */,
 			);
 			name = ViewModels;
 			sourceTree = "<group>";
@@ -213,34 +286,44 @@
 		F5BDE7A51EA7C25A005B3E52 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				F5BDE7A61EA7C26C005B3E52 /* PhotoType.h */,
-				F5BDE7A71EA7C26C005B3E52 /* PhotoType.m */,
-				F5BDE7AD1EA7C5E1005B3E52 /* Photo.h */,
-				F5BDE7AE1EA7C5E1005B3E52 /* Photo.m */,
-				D21F6A50BD086678D5E52280 /* ANIPoint.h */,
-				D21F6106CEA79A8E12DE48B4 /* ANIPoint.m */,
+				F5BDE7A61EA7C26C005B3E52 /* NVPhotoType.h */,
+				F5BDE7A71EA7C26C005B3E52 /* NVPhotoType.m */,
+				F5BDE7AD1EA7C5E1005B3E52 /* NVPhoto.h */,
+				F5BDE7AE1EA7C5E1005B3E52 /* NVPhoto.m */,
+				D21F6A50BD086678D5E52280 /* NVPoint.h */,
+				D21F6106CEA79A8E12DE48B4 /* NVPoint.m */,
 			);
 			name = Models;
-			sourceTree = "<group>";
-		};
-		F5BDE7AC1EA7C4C7005B3E52 /* Protected */ = {
-			isa = PBXGroup;
-			children = (
-				D21F6EAB5E67A9EF3381BA9A /* BaseDataSource+Protected.h */,
-				D21F67A8390E1CBA66BC5E4D /* BaseDataSource+Protected.m */,
-				D21F6D3550B477148A154627 /* GroupObject.h */,
-				D21F68C73B32A579C949A051 /* GroupObject.m */,
-			);
-			name = Protected;
 			sourceTree = "<group>";
 		};
 		F5BDE7B01EA7C999005B3E52 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				D21F6FA93ED536786B7281B7 /* NSArray+Helper.h */,
-				D21F6E595E119E3F0A866CEE /* NSArray+Helper.m */,
+				F5C3DF141EACF33E0004EF50 /* UIView+NVLayout.h */,
+				F5C3DF151EACF33E0004EF50 /* UIView+NVLayout.m */,
+				D21F6FA93ED536786B7281B7 /* NSArray+NVHelper.h */,
+				D21F6E595E119E3F0A866CEE /* NSArray+NVHelper.m */,
+				D21F61C839BAE89362C0A271 /* UIView+NVReusable.m */,
+				D21F66F2795CD1A095E7CE4F /* UIView+NVReusable.h */,
 			);
 			name = Helpers;
+			sourceTree = "<group>";
+		};
+		F5C3DF041EACD7490004EF50 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F5C3DF131EACEC560004EF50 /* NVViewModelConfigurable.h */,
+				F5C3DF051EACD7630004EF50 /* NVPhotoCollectionViewCell.h */,
+				F5C3DF061EACD7630004EF50 /* NVPhotoCollectionViewCell.m */,
+				F5C3DF071EACD7630004EF50 /* NVPhotoCollectionViewCell.xib */,
+				F5C3DF0E1EACEBB60004EF50 /* NVPhotoTypeCollectionHeaderView.h */,
+				F5C3DF0F1EACEBB60004EF50 /* NVPhotoTypeCollectionHeaderView.m */,
+				F5C3DF101EACEBB60004EF50 /* NVPhotoTypeCollectionHeaderView.xib */,
+				F5C3DF171EAD07D10004EF50 /* NVPointCollectionHeaderView.h */,
+				F5C3DF181EAD07D10004EF50 /* NVPointCollectionHeaderView.m */,
+				F5C3DF191EAD07D10004EF50 /* NVPointCollectionHeaderView.xib */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -349,7 +432,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5C3DF121EACEBB60004EF50 /* NVPhotoTypeCollectionHeaderView.xib in Resources */,
 				F5BDE6EE1EA237A2005B3E52 /* LaunchScreen.storyboard in Resources */,
+				F5C3DF1B1EAD07D10004EF50 /* NVPointCollectionHeaderView.xib in Resources */,
+				F5C3DF091EACD7630004EF50 /* NVPhotoCollectionViewCell.xib in Resources */,
 				F5BDE6EB1EA237A2005B3E52 /* Assets.xcassets in Resources */,
 				F5BDE6E91EA237A2005B3E52 /* Main.storyboard in Resources */,
 			);
@@ -377,19 +463,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5BDE6E61EA237A2005B3E52 /* ViewController.m in Sources */,
+				F5C3DF1E1EAD179B0004EF50 /* NVCollectionViewDelegate.m in Sources */,
+				F5C3DF1A1EAD07D10004EF50 /* NVPointCollectionHeaderView.m in Sources */,
 				F5BDE6E31EA237A2005B3E52 /* AppDelegate.m in Sources */,
-				F5BDE7AB1EA7C4A0005B3E52 /* PhotoTypeDataSource.m in Sources */,
-				F5BDE7981EA7B8DC005B3E52 /* BaseDataSource.m in Sources */,
+				F5C3DF081EACD7630004EF50 /* NVPhotoCollectionViewCell.m in Sources */,
+				F5BDE7981EA7B8DC005B3E52 /* NVDataSource.m in Sources */,
 				F5BDE6E01EA237A2005B3E52 /* main.m in Sources */,
-				F5BDE7A81EA7C26C005B3E52 /* PhotoType.m in Sources */,
-				F5BDE7A31EA7C1F0005B3E52 /* PhotoTypeHeaderViewModel.m in Sources */,
-				F5BDE7AF1EA7C5E1005B3E52 /* Photo.m in Sources */,
-				D21F682927B4A38B1ACD8D5A /* BaseDataSource+Protected.m in Sources */,
-				D21F6DFFAD597D4DC8B56C82 /* GroupObject.m in Sources */,
-				D21F6510AAD5614C09CE1EB1 /* NSArray+Helper.m in Sources */,
-				D21F66F4BF40010102AC8467 /* ANIPoint.m in Sources */,
-				D21F67FCB2D2FCBDB56D2F40 /* PointHeaderViewModel.m in Sources */,
-				D21F6635EC74DD00842B1754 /* PhotoViewModel.m in Sources */,
+				F5BDE7A81EA7C26C005B3E52 /* NVPhotoType.m in Sources */,
+				F5BDE7A31EA7C1F0005B3E52 /* NVPhotoTypeHeaderViewModel.m in Sources */,
+				F5C3DF111EACEBB60004EF50 /* NVPhotoTypeCollectionHeaderView.m in Sources */,
+				F5C3DF161EACF33E0004EF50 /* UIView+NVLayout.m in Sources */,
+				F5BDE7AF1EA7C5E1005B3E52 /* NVPhoto.m in Sources */,
+				D21F6510AAD5614C09CE1EB1 /* NSArray+NVHelper.m in Sources */,
+				D21F66F4BF40010102AC8467 /* NVPoint.m in Sources */,
+				D21F67FCB2D2FCBDB56D2F40 /* NVPointHeaderViewModel.m in Sources */,
+				F53B0CA91EABB6CB0008F88A /* NVPhotosInteractor.m in Sources */,
+				D21F6635EC74DD00842B1754 /* NVPhotoViewModel.m in Sources */,
+				D21F646416A93821A985FA84 /* NVPhotoTypeDataSourceFactory.m in Sources */,
+				D21F6C30F82810BA911F657A /* NVGroupObject.m in Sources */,
+				D21F6ABE892F2572668C712D /* NVElementObject.m in Sources */,
+				F5C3DF031EACD6930004EF50 /* NVPhotoTypeDataSourceAdapter.m in Sources */,
+				D21F6C7E3D36D1B44A7BE92B /* UIView+NVReusable.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

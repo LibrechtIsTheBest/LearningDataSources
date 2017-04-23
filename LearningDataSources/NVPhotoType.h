@@ -1,15 +1,15 @@
 #import <Foundation/Foundation.h>
 
-@class Photo;
+@class NVPhoto;
 
-@interface PhotoType : NSObject
+@interface NVPhotoType : NSObject
 
 - (instancetype)initWithName:(NSString *)name
     requiredQuantity:(NSUInteger)requiredQuantity
-    photos:(NSArray<Photo *> *)photos;
+    photos:(NSArray<NVPhoto *> *)photos;
 
 @property (copy, nonatomic) NSString *name;
 @property (nonatomic) NSUInteger requiredQuantity;
-@property (nonatomic) NSArray <Photo *> *photos;
+@property (nonatomic) NSArray <NVPhoto *> *photos;
 
 @end

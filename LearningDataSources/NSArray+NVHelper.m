@@ -1,8 +1,8 @@
-#import "NSArray+Helper.h"
+#import "NSArray+NVHelper.h"
 
-@implementation NSArray (Helper)
+@implementation NSArray (NVHelper)
 
-- (instancetype)map:(id (^)(id))transform
+- (NSArray *)map:(id (^)(id))transform
 {
     NSMutableArray *array = [NSMutableArray arrayWithCapacity:self.count];
     for (id obj in self) {

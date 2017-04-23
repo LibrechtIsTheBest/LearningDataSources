@@ -1,8 +1,8 @@
 #import <Foundation/Foundation.h>
 
-@class PhotoType, ANIPoint;
+@class NVPhotoType, NVPoint;
 
-@interface Photo : NSObject
+@interface NVPhoto : NSObject
 
 + (instancetype)photoWithImageName:(NSString *)imageName
     comment:(NSString *)comment;
@@ -12,7 +12,7 @@
 
 @property (copy, nonatomic, readonly) NSString *imageName;
 @property (copy, nonatomic, readonly) NSString *comment;
-@property (weak, nonatomic) PhotoType *type;
-@property (weak, nonatomic) ANIPoint *point;
+@property (weak, nonatomic) NVPhotoType *type;
+@property (weak, nonatomic) NVPoint *point;
 
 @end

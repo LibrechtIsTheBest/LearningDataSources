@@ -5,36 +5,56 @@
       <sourceFolder url="file://$MODULE_DIR$/LearningDataSourcesTests/LearningDataSourcesTests.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LearningDataSourcesTests/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/AppDelegate.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/NVCollectionViewDelegate.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/NVPhotoViewModel.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/NVPhotosInteractor.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/AppDelegate.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/Info.plist" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/Photo.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/NVGroupObject.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/NVPhotosInteractor.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/NVPhotoType.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/NVDataSource.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/NVPointCollectionHeaderView.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/NVGroupObject.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/NVDataSource.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/NVPointCollectionHeaderView.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/NSArray+NVHelper.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/NVPointCollectionHeaderView.xib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/NVElementObject.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/NVPointHeaderViewModel.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/NVPhotoTypeDataSourceFactory.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/NVElementObject.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/NVPhotoCollectionViewCell.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/UIView+NVReusable.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/NVPointHeaderViewModel.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/NVPhotoTypeDataSourceFactory.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/NVPhotoType.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/NVCollectionViewDelegate.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/ViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/NVPhotoCollectionViewCell.xib" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/main.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/PhotoTypeDataSource.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/NVPhotoTypeCollectionHeaderView.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/NVPhotoCollectionViewCell.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/NSArray+NVHelper.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/Base.lproj/LaunchScreen.storyboard" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/Base.lproj/Main.storyboard" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/PhotoType.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/ANIPoint.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/PhotoType.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/ANIPoint.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/NSArray+Helper.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/GroupObject.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/BaseDataSource+Protected.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/NSArray+Helper.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/PhotoTypeDataSource.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/Photo.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/BaseDataSource+Protected.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/BaseDataSource.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/BaseDataSource.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/PhotoViewModel.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/Assets.xcassets" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/PhotoViewModel.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/ViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/PhotoTypeHeaderViewModel.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/PointHeaderViewModel.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/UIView+NVReusable.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/NVViewModelConfigurable.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/UIView+NVLayout.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/NVPhotoTypeHeaderViewModel.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/NVPhotoTypeCollectionHeaderView.xib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/NVPhotoTypeCollectionHeaderView.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/NVPoint.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/NVPoint.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/NVPhotoTypeHeaderViewModel.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/UIView+NVLayout.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/NVPhotoTypeDataSourceAdapter.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/NVPhoto.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/ViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/PhotoTypeHeaderViewModel.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/GroupObject.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/PointHeaderViewModel.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/NVPhotoTypeDataSourceAdapter.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/Assets.xcassets" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/NVPhoto.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearningDataSources/NVPhotoViewModel.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LearningDataSourcesUITests/LearningDataSourcesUITests.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LearningDataSourcesUITests/Info.plist" isTestSource="false" />
     </content>

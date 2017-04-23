@@ -1,6 +1,6 @@
-#import "Photo.h"
+#import "NVPhoto.h"
 
-@implementation Photo
+@implementation NVPhoto
 
 + (instancetype)photoWithImageName:(NSString *)imageName
     comment:(NSString *)comment

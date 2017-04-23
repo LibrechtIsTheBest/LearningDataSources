@@ -1,10 +1,10 @@
 #import <UIKit/UIColor.h>
 
-@class PhotoType;
+@class NVPhotoType;
 
-@interface PhotoTypeHeaderViewModel : NSObject
+@interface NVPhotoTypeHeaderViewModel : NSObject
 
-- (instancetype)initWithPhotoType:(PhotoType *)photoType;
+- (instancetype)initWithPhotoType:(NVPhotoType *)photoType;
 
 @property (copy, nonatomic, readonly) NSString *title;
 @property (copy, nonatomic, readonly) NSString *subtitle;

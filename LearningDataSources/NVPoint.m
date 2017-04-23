@@ -1,20 +1,20 @@
-#import "ANIPoint.h"
-#import "PhotoType.h"
-#import "Photo.h"
+#import "NVPoint.h"
+#import "NVPhotoType.h"
+#import "NVPhoto.h"
 
-@implementation ANIPoint
+@implementation NVPoint
 
 - (instancetype)initWithName:(NSString *)name
     address:(NSString *)address
-    photoTypes:(NSArray<PhotoType *> *)photoTypes
+    photoTypes:(NSArray<NVPhotoType *> *)photoTypes
 {
     self = [super init];
     if (self) {
         _name = [name copy];
         _address = [address copy];
         _photoTypes = [photoTypes copy];
-        for (PhotoType *photoType in photoTypes) {
-            for (Photo *photo in photoType.photos) {
+        for (NVPhotoType *photoType in photoTypes) {
+            for (NVPhoto *photo in photoType.photos) {
                 photo.point = self;
             }
         }
@@ -25,7 +25,7 @@
 
 + (instancetype)pointWithName:(NSString *)name
     address:(NSString *)address
-    photoTypes:(NSArray<PhotoType *> *)photoTypes
+    photoTypes:(NSArray<NVPhotoType *> *)photoTypes
 {
     return [[self alloc] initWithName:name address:nil photoTypes:photoTypes];
 }

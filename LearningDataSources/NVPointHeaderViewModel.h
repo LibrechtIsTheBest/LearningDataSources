@@ -1,10 +1,10 @@
 #import <Foundation/Foundation.h>
 
-@class ANIPoint;
+@class NVPoint;
 
-@interface PointHeaderViewModel : NSObject
+@interface NVPointHeaderViewModel : NSObject
 
-- (instancetype)initWithPoint:(ANIPoint *)point;
+- (instancetype)initWithPoint:(NVPoint *)point;
 
 @property (copy, nonatomic, readonly) NSString *name;
 @property (copy, nonatomic, readonly) NSString *address;
