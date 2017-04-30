@@ -1,9 +1,49 @@
 #import "NVPhotosInteractor.h"
+#import "NVPhotoViewModel.h"
+#import "NVPointViewModel.h"
+#import "NVPhotoTypeViewModel.h"
 #import "NVPoint.h"
 #import "NVPhotoType.h"
 #import "NVPhoto.h"
+#import "NSArray+NVHelper.h"
+
 
 @implementation NVPhotosInteractor
+
+#pragma mark - <NVPhotosInteractorInput>
+
+- (void)requestPhotoData
+{
+    nv_define_weak_self(weakSelf);
+    [self getPointsWithCompletion:^(
+    NSArray<NVPoint *> *points,
+    NVPhotoType *photoType,
+    NSError *error) {
+        NVPhotoTypeViewModel *viewModel =
+            [[NVPhotoTypeViewModel alloc] initWithPhotoType:photoType];
+        [weakSelf.output interactorDidRecievePhotoType:viewModel];
+        
+        dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+            sleep(1);
+            dispatch_async(dispatch_get_main_queue(), ^{
+                NSArray<NVPointViewModel *> *viewModels = [points map:^id(NVPoint *obj) {
+                    return [[NVPointViewModel alloc] initWithPoint:obj];
+                }];
+                [weakSelf.output interactorDidRecievePoints:viewModels];
+                [weakSelf.output interactorDidEndRequesting];
+            });
+        });
+    }];
+}
+
+- (void)createRandomPhoto
+{
+    NVPhoto *photo = [[NVPhoto alloc] initWithImageName:@"photo" comment:@"comment"];
+    NVPhotoViewModel *viewModel = [[NVPhotoViewModel alloc] initWithPhoto:photo];
+    [self.output interactorDidCreateRandomPhoto:viewModel];
+}
+
+#pragma mark - Private
 
 - (void)getPointsWithCompletion:(void(^)(NSArray<NVPoint *> *points, NVPhotoType *photoType, NSError *error))completion
 {
@@ -42,7 +82,12 @@
             photoTypes:@[type1, type2]];
     }
     
-    completion(@[point], type, nil);
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        sleep(1);
+        dispatch_async(dispatch_get_main_queue(), ^{
+            completion(@[point], type, nil);
+        });
+    });
 }
 
 @end

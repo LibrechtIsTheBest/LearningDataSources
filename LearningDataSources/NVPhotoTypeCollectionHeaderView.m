@@ -1,16 +1,16 @@
 #import "NVPhotoTypeCollectionHeaderView.h"
-#import "NVPhotoTypeHeaderViewModel.h"
+#import "NVPhotoTypeViewModel.h"
 
 @interface NVPhotoTypeCollectionHeaderView ()
 
-@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
-@property (weak, nonatomic) IBOutlet UILabel *subtitleLabel;
+@property (nonatomic, weak) IBOutlet UILabel *titleLabel;
+@property (nonatomic, weak) IBOutlet UILabel *subtitleLabel;
 
 @end
 
 @implementation NVPhotoTypeCollectionHeaderView
 
-- (void)configureWithViewModel:(NVPhotoTypeHeaderViewModel *)viewModel
+- (void)configureWithViewModel:(NVPhotoTypeViewModel *)viewModel
 {
     self.titleLabel.text = viewModel.title;
     self.subtitleLabel.text = viewModel.subtitle;

@@ -4,9 +4,9 @@
 
 @interface NVPoint : NSObject
 
-@property (copy, nonatomic) NSString *name;
-@property (copy, nonatomic) NSString *address;
-@property (copy, nonatomic) NSArray <NVPhotoType *> *photoTypes;
+@property (nonatomic, copy, readonly) NSString *name;
+@property (nonatomic, copy, readonly) NSString *address;
+@property (nonatomic, copy, readonly) NSArray <NVPhotoType *> *photoTypes;
 
 - (instancetype)initWithName:(NSString *)name
     address:(NSString *)address

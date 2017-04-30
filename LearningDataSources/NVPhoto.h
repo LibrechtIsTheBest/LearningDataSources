@@ -10,9 +10,9 @@
 - (instancetype)initWithImageName:(NSString *)imageName
     comment:(NSString *)comment;
 
-@property (copy, nonatomic, readonly) NSString *imageName;
-@property (copy, nonatomic, readonly) NSString *comment;
-@property (weak, nonatomic) NVPhotoType *type;
-@property (weak, nonatomic) NVPoint *point;
+@property (nonatomic, copy, readonly) NSString *imageName;
+@property (nonatomic, copy, readonly) NSString *comment;
+@property (nonatomic, weak) NVPhotoType *type;
+@property (nonatomic, weak) NVPoint *point;
 
 @end

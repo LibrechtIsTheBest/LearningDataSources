@@ -1,10 +1,12 @@
 #import "NVDataSource.h"
 
+
 @interface NVDataSource ()
 
-@property (nonatomic) NSMutableArray <NVGroupObject *> *groups;
+@property (nonatomic) NSMutableArray <NVGroup *> *groups;
 
 @end
+
 
 @implementation NVDataSource
 
@@ -27,66 +29,66 @@
 
 - (NSInteger)numberOfElementsInGroup:(NSInteger)groupIndex
 {
-    return [self groupObjectAtIndex:groupIndex].numberOfObjects;
+    return [self groupAtIndex:groupIndex].numberOfObjects;
 }
 
-- (NVElementObject *)elementObjectAtIndex:(NSInteger)index inGroup:(NSInteger)groupIndex
+- (NVElement *)elementAtIndex:(NSInteger)index inGroup:(NSInteger)groupIndex
 {
-    return [[self groupObjectAtIndex:groupIndex] elementAtIndex:index];
+    return [[self groupAtIndex:groupIndex] elementAtIndex:index];
 }
 
-- (NVElementObject *)headerObjectOfGroup:(NSInteger)groupIndex
+- (NVElement *)headerOfGroup:(NSInteger)groupIndex
 {
-    return [self groupObjectAtIndex:groupIndex].headerObject;
+    return [self groupAtIndex:groupIndex].header;
 }
 
-- (NVElementObject *)footerObjectOfGroup:(NSInteger)groupIndex
+- (NVElement *)footerOfGroup:(NSInteger)groupIndex
 {
-    return [self groupObjectAtIndex:groupIndex].footerObject;
+    return [self groupAtIndex:groupIndex].footer;
 }
 
-- (void)insertElementObject:(NVElementObject *)elementObject atIndex:(NSInteger)cellIndex inGroup:(NSInteger)groupIndex
+- (void)insertElement:(NVElement *)element atIndex:(NSInteger)cellIndex inGroup:(NSInteger)groupIndex
 {
-    NVGroupObject *group = [self groupObjectAtIndex:groupIndex];
-    [group insertElement:elementObject atIndex:cellIndex];
+    NVGroup *group = [self groupAtIndex:groupIndex];
+    [group insertElement:element atIndex:cellIndex];
 }
 
-- (void)addHeaderObject:(NVElementObject *)headerObject inGroup:(NSInteger)groupIndex
+- (void)addHeader:(NVElement *)header inGroup:(NSInteger)groupIndex
 {
-    [self groupObjectAtIndex:groupIndex].headerObject = headerObject;
+    [self groupAtIndex:groupIndex].header = header;
 }
 
-- (void)addFooterObject:(NVElementObject *)footerObject inGroup:(NSInteger)groupIndex
+- (void)addFooter:(NVElement *)footer inGroup:(NSInteger)groupIndex
 {
-    [self groupObjectAtIndex:groupIndex].footerObject = footerObject;
+    [self groupAtIndex:groupIndex].footer = footer;
 }
 
-- (void)addGroupObject:(NVGroupObject *)groupObject
+- (void)addGroup:(NVGroup *)group
 {
     NSUInteger index = [self numberOfGroups];
-    [self insertGroupObject:groupObject atIndex:index];
+    [self insertGroup:group atIndex:index];
 }
 
-- (void)insertGroupObject:(NVGroupObject *)groupObject atIndex:(NSInteger)groupIndex
+- (void)insertGroup:(NVGroup *)group atIndex:(NSInteger)groupIndex
 {
-    self.groups[groupIndex] = groupObject;
+    self.groups[groupIndex] = group;
 }
 
-- (void)deleteElementObjectAtIndex:(NSInteger)cellIndex inGroup:(NSInteger)groupIndex
+- (void)deleteElementAtIndex:(NSInteger)cellIndex inGroup:(NSInteger)groupIndex
 {
-    NVGroupObject *group = [self groupObjectAtIndex:groupIndex];
+    NVGroup *group = [self groupAtIndex:groupIndex];
     [group removeElementAtIndex:cellIndex];
 }
 
-- (void)replaceElementObjectAtIndex:(NSInteger)cellIndex inGroup:(NSInteger)groupIndex withElementObject:(NVElementObject *)elementObject
+- (void)replaceElementAtIndex:(NSInteger)cellIndex inGroup:(NSInteger)groupIndex withElement:(NVElement *)element
 {
-    NVGroupObject *group = [self groupObjectAtIndex:groupIndex];
-    [group replaceElementAtIndex:cellIndex withElement:elementObject];
+    NVGroup *group = [self groupAtIndex:groupIndex];
+    [group replaceElementAtIndex:cellIndex withElement:element];
 }
 
 #pragma mark - Private
 
-- (NVGroupObject *)groupObjectAtIndex:(NSUInteger)groupIndex
+- (NVGroup *)groupAtIndex:(NSUInteger)groupIndex
 {
     return self.groups[groupIndex];
 }

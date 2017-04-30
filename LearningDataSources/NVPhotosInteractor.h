@@ -1,11 +1,14 @@
 #import <Foundation/Foundation.h>
+#import "NVPhotosInteractorInput.h"
+#import "NVPhotosInteractorOutput.h"
 
-@class NVPoint, NVPhotoType;
 
-@interface NVPhotosInteractor : NSObject <NSObject>
+@class NVPointHeaderViewModel, NVPhotoTypeHeaderViewModel, NVPhotoViewModel;
 
-@property (copy, nonatomic) NSString *photoTypeName;
+@interface NVPhotosInteractor : NSObject <NVPhotosInteractorInput>
 
-- (void)getPointsWithCompletion:(void(^)(NSArray<NVPoint *> *points, NVPhotoType *photoType, NSError *error))completion;
+@property (nonatomic, copy) NSString *photoTypeName;
+
+@property (nonatomic, weak) id<NVPhotosInteractorOutput> output;
 
 @end

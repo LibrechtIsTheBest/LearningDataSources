@@ -4,6 +4,7 @@
 // Cells
 #import "NVViewModelConfigurable.h"
 
+
 @implementation NVPhotoTypeDataSourceAdapter
 
 #pragma mark - <UICollectionViewDataSource>
@@ -22,7 +23,7 @@
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView
     cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    NVElementObject *element = [self.adaptee elementObjectAtIndex:indexPath.item
+    NVElement *element = [self.adaptee elementAtIndex:indexPath.item
         inGroup:indexPath.section];
     UICollectionViewCell <NVViewModelConfigurable> *cell =
         [collectionView dequeueReusableCellWithReuseIdentifier: element.reuseIdentifier
@@ -34,12 +35,12 @@
 - (UICollectionReusableView *)collectionView:(UICollectionView *)collectionView
     viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath
 {
-    NVElementObject *supplementaryElement;
+    NVElement *supplementaryElement;
     if ([kind isEqualToString:UICollectionElementKindSectionHeader]) {
-        supplementaryElement = [self.adaptee headerObjectOfGroup:indexPath.section];
+        supplementaryElement = [self.adaptee headerOfGroup:indexPath.section];
     }
     else {
-        supplementaryElement = [self.adaptee footerObjectOfGroup:indexPath.section];
+        supplementaryElement = [self.adaptee footerOfGroup:indexPath.section];
     }
     UICollectionReusableView <NVViewModelConfigurable> *headerView =
         [collectionView dequeueReusableSupplementaryViewOfKind:kind

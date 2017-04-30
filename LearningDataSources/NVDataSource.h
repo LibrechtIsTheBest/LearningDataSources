@@ -1,36 +1,37 @@
 #import <Foundation/Foundation.h>
-#import "NVGroupObject.h"
+#import "NVGroup.h"
+
 
 @interface NVDataSource<
     __covariant CellViewModelType,
     __covariant HeaderViewModelType,
-    __covariant FooterViewModeltype> : NSObject
+    __covariant FooterViewModelType> : NSObject
 
 - (NSInteger)numberOfGroups;
 - (NSInteger)numberOfElementsInGroup:(NSInteger)groupIndex;
-- (NVElementObject<CellViewModelType> *)elementObjectAtIndex:(NSInteger)index inGroup:(NSInteger)groupIndex;
-- (NVElementObject<HeaderViewModelType> *)headerObjectOfGroup:(NSInteger)groupIndex;
-- (NVElementObject<FooterViewModeltype> *)footerObjectOfGroup:(NSInteger)groupIndex;
+- (NVElement<CellViewModelType> *)elementAtIndex:(NSInteger)index inGroup:(NSInteger)groupIndex;
+- (NVElement<HeaderViewModelType> *)headerOfGroup:(NSInteger)groupIndex;
+- (NVElement<FooterViewModelType> *)footerOfGroup:(NSInteger)groupIndex;
 
 //Insert
-- (void)insertElementObject:(NVElementObject<CellViewModelType> *)elementObject
+- (void)insertElement:(NVElement<CellViewModelType> *)element
     atIndex:(NSInteger)cellIndex inGroup:(NSInteger)groupIndex;
 
-- (void)addHeaderObject:(NVElementObject<HeaderViewModelType> *)headerObject
+- (void)addHeader:(NVElement<HeaderViewModelType> *)header
     inGroup:(NSInteger)groupIndex;
 
-- (void)addFooterObject:(NVElementObject<FooterViewModeltype> *)footerObject
+- (void)addFooter:(NVElement<FooterViewModelType> *)footer
     inGroup:(NSInteger)groupIndex;
 
-- (void)addGroupObject:(NVGroupObject<CellViewModelType, HeaderViewModelType, FooterViewModeltype> *)groupObject;
+- (void)addGroup:(NVGroup<CellViewModelType, HeaderViewModelType, FooterViewModelType> *)group;
 
-- (void)insertGroupObject:(NVGroupObject<CellViewModelType, HeaderViewModelType, FooterViewModeltype> *)groupObject atIndex:(NSInteger)groupIndex;
+- (void)insertGroup:(NVGroup<CellViewModelType, HeaderViewModelType, FooterViewModelType> *)group atIndex:(NSInteger)groupIndex;
 
 //Delete
-- (void)deleteElementObjectAtIndex:(NSInteger)cellIndex inGroup:(NSInteger)groupIndex;
+- (void)deleteElementAtIndex:(NSInteger)cellIndex inGroup:(NSInteger)groupIndex;
 
 //Update
-- (void)replaceElementObjectAtIndex:(NSInteger)cellIndex inGroup:(NSInteger)groupIndex
-    withElementObject:(NVElementObject<CellViewModelType> *)elementObject;
+- (void)replaceElementAtIndex:(NSInteger)cellIndex inGroup:(NSInteger)groupIndex
+    withElement:(NVElement<CellViewModelType> *)element;
 
 @end

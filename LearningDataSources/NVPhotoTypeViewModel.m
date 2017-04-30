@@ -1,13 +1,15 @@
-#import "NVPhotoTypeHeaderViewModel.h"
+#import "NVPhotoTypeViewModel.h"
 #import "NVPhotoType.h"
 
-@interface NVPhotoTypeHeaderViewModel () <NSObject>
+
+@interface NVPhotoTypeViewModel () <NSObject>
 
 @property (nonatomic) NVPhotoType *photoType;
 
 @end
 
-@implementation NVPhotoTypeHeaderViewModel
+
+@implementation NVPhotoTypeViewModel
 
 - (instancetype)initWithPhotoType:(NVPhotoType *)photoType
 {
@@ -25,7 +27,7 @@
 - (NSString *)description
 {
     return [NSString stringWithFormat:@"%@: title: %@ subtitle: %@ backgroundColor: %@",
-            super.description, self.title, self.subtitle, self.backgroundColor];
+        super.description, self.title, self.subtitle, self.backgroundColor];
 }
 
 @end

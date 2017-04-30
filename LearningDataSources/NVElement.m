@@ -1,6 +1,8 @@
-#import "NVElementObject.h"
+#import "NVElement.h"
+#import "NVElementAttributes.h"
 
-@implementation NVElementObject
+
+@implementation NVElement
 
 - (instancetype)initWithReuseIdentifier:(NSString *)reuseIdentifier viewModel:(id)viewModel
 {
@@ -8,12 +10,13 @@
     if (self) {
         _reuseIdentifier = reuseIdentifier.copy;
         _viewModel = viewModel;
+        _attributes = [[NVElementAttributes alloc] init];
     }
 
     return self;
 }
 
-+ (instancetype)elementObjectWithReuseIdentifier:(NSString *)reuseIdentifier viewModel:(id)viewModel
++ (instancetype)elementWithReuseIdentifier:(NSString *)reuseIdentifier viewModel:(id)viewModel
 {
     return [[self alloc] initWithReuseIdentifier:reuseIdentifier viewModel:viewModel];
 }

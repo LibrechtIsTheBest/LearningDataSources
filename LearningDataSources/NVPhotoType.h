@@ -8,7 +8,7 @@
     requiredQuantity:(NSUInteger)requiredQuantity
     photos:(NSArray<NVPhoto *> *)photos;
 
-@property (copy, nonatomic) NSString *name;
+@property (nonatomic, copy) NSString *name;
 @property (nonatomic) NSUInteger requiredQuantity;
 @property (nonatomic) NSArray <NVPhoto *> *photos;
 

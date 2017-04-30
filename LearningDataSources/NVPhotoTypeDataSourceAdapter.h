@@ -1,5 +1,6 @@
 #import <UIKit/UIKit.h>
 
+
 @class NVDataSource;
 
 @interface NVPhotoTypeDataSourceAdapter : NSObject <UICollectionViewDataSource>

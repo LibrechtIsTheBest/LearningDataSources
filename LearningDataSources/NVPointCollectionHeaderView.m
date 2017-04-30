@@ -1,10 +1,10 @@
 #import "NVPointCollectionHeaderView.h"
-#import "NVPointHeaderViewModel.h"
+#import "NVPointViewModel.h"
 
 @interface NVPointCollectionHeaderView ()
 
-@property (weak, nonatomic) IBOutlet UILabel *nameLabel;
-@property (weak, nonatomic) IBOutlet UILabel *addressLabel;
+@property (nonatomic, weak) IBOutlet UILabel *nameLabel;
+@property (nonatomic, weak) IBOutlet UILabel *addressLabel;
 
 @end
 
@@ -16,7 +16,7 @@
     return self;
 }
 
-- (void)configureWithViewModel:(NVPointHeaderViewModel *)viewModel
+- (void)configureWithViewModel:(NVPointViewModel *)viewModel
 {
     self.nameLabel.text = viewModel.name;
     self.addressLabel.text = viewModel.address;

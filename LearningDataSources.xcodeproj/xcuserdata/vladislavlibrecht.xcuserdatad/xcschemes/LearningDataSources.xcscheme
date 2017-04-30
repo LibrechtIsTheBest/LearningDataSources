@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F5BDE6DA1EA237A2005B3E52"
-               BuildableName = "LearningDataSources"
+               BuildableName = "LearningDataSources.app"
                BlueprintName = "LearningDataSources"
                ReferencedContainer = "container:LearningDataSources.xcodeproj">
             </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F5BDE6DA1EA237A2005B3E52"
-            BuildableName = "LearningDataSources"
+            BuildableName = "LearningDataSources.app"
             BlueprintName = "LearningDataSources"
             ReferencedContainer = "container:LearningDataSources.xcodeproj">
          </BuildableReference>

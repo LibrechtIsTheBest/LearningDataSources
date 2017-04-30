@@ -3,8 +3,8 @@
 
 @interface NVPhotoCollectionViewCell ()
 
-@property (weak, nonatomic) IBOutlet UILabel *imageNameLabel;
-@property (weak, nonatomic) IBOutlet UILabel *commentLabel;
+@property (nonatomic, weak) IBOutlet UILabel *imageNameLabel;
+@property (nonatomic, weak) IBOutlet UILabel *commentLabel;
 
 @end
 

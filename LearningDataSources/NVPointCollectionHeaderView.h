@@ -1,10 +1,10 @@
 #import "UIView+NVReusable.h"
 #import "NVViewModelConfigurable.h"
 
-@class NVPointHeaderViewModel;
+@class NVPointViewModel;
 
 @interface NVPointCollectionHeaderView : UICollectionReusableView <NVViewModelConfigurable>
 
-- (void)configureWithViewModel:(NVPointHeaderViewModel *)viewModel;
+- (void)configureWithViewModel:(NVPointViewModel *)viewModel;
 
 @end
