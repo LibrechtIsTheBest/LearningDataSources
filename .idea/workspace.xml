@@ -2,46 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0606142b-f4df-44aa-80d9-8b590feedb28" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LearningDataSources/NVElementAttributes.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LearningDataSources/NVElementAttributes.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LearningDataSources/NVMacroUtils.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LearningDataSources/NVPhotosInteractorInput.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LearningDataSources/NVPhotosInteractorOutput.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LearningDataSources/PrefixHeader.pch" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/LearningDataSources/NVPhotoTypeDataSourceFactory.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/LearningDataSources/NVPhotoTypeDataSourceFactory.m" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearningDataSources/NVElementObject.h" afterPath="$PROJECT_DIR$/LearningDataSources/NVElement.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearningDataSources/NVElementObject.m" afterPath="$PROJECT_DIR$/LearningDataSources/NVElement.m" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearningDataSources/NVGroupObject.h" afterPath="$PROJECT_DIR$/LearningDataSources/NVGroup.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearningDataSources/NVGroupObject.m" afterPath="$PROJECT_DIR$/LearningDataSources/NVGroup.m" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearningDataSources/NVPhotoTypeHeaderViewModel.h" afterPath="$PROJECT_DIR$/LearningDataSources/NVPhotoTypeViewModel.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearningDataSources/NVPhotoTypeHeaderViewModel.m" afterPath="$PROJECT_DIR$/LearningDataSources/NVPhotoTypeViewModel.m" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearningDataSources/NVPointHeaderViewModel.h" afterPath="$PROJECT_DIR$/LearningDataSources/NVPointViewModel.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearningDataSources/NVPointHeaderViewModel.m" afterPath="$PROJECT_DIR$/LearningDataSources/NVPointViewModel.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LearningDataSources/NVPhotoCollectionViewModel.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LearningDataSources/NVPhotoCollectionViewModel.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LearningDataSources/NVPhotoCollectionViewModelInput.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LearningDataSources/NVPhotoCollectionViewModelOutput.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LearningDataSources/PhotoCollectionViewController.h" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LearningDataSources/ViewController.h" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/LearningDataSources/ViewController.m" afterPath="$PROJECT_DIR$/LearningDataSources/PhotoCollectionViewController.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/LearningDataSources.iml" afterPath="$PROJECT_DIR$/.idea/LearningDataSources.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearningDataSources.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/LearningDataSources.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearningDataSources.xcodeproj/xcuserdata/vladislavlibrecht.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterPath="$PROJECT_DIR$/LearningDataSources.xcodeproj/xcuserdata/vladislavlibrecht.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearningDataSources.xcodeproj/xcuserdata/vladislavlibrecht.xcuserdatad/xcschemes/LearningDataSources.xcscheme" afterPath="$PROJECT_DIR$/LearningDataSources.xcodeproj/xcuserdata/vladislavlibrecht.xcuserdatad/xcschemes/LearningDataSources.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearningDataSources/AppDelegate.h" afterPath="$PROJECT_DIR$/LearningDataSources/AppDelegate.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearningDataSources/AppDelegate.m" afterPath="$PROJECT_DIR$/LearningDataSources/AppDelegate.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearningDataSources/Base.lproj/Main.storyboard" afterPath="$PROJECT_DIR$/LearningDataSources/Base.lproj/Main.storyboard" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearningDataSources/NSArray+NVHelper.h" afterPath="$PROJECT_DIR$/LearningDataSources/NSArray+NVHelper.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearningDataSources/NSArray+NVHelper.m" afterPath="$PROJECT_DIR$/LearningDataSources/NSArray+NVHelper.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearningDataSources/NVDataSource.h" afterPath="$PROJECT_DIR$/LearningDataSources/NVDataSource.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearningDataSources/NVDataSource.m" afterPath="$PROJECT_DIR$/LearningDataSources/NVDataSource.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearningDataSources/NVPhoto.h" afterPath="$PROJECT_DIR$/LearningDataSources/NVPhoto.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearningDataSources/NVPhotoCollectionViewCell.m" afterPath="$PROJECT_DIR$/LearningDataSources/NVPhotoCollectionViewCell.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearningDataSources/NVPhotoType.h" afterPath="$PROJECT_DIR$/LearningDataSources/NVPhotoType.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearningDataSources/NVPhotoTypeCollectionHeaderView.h" afterPath="$PROJECT_DIR$/LearningDataSources/NVPhotoTypeCollectionHeaderView.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearningDataSources/NVPhotoTypeCollectionHeaderView.m" afterPath="$PROJECT_DIR$/LearningDataSources/NVPhotoTypeCollectionHeaderView.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearningDataSources/NVElement.h" afterPath="$PROJECT_DIR$/LearningDataSources/NVElement.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearningDataSources/NVElementAttributes.h" afterPath="$PROJECT_DIR$/LearningDataSources/NVElementAttributes.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearningDataSources/NVPhotoTypeDataSourceAdapter.m" afterPath="$PROJECT_DIR$/LearningDataSources/NVPhotoTypeDataSourceAdapter.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearningDataSources/NVPhotoViewModel.h" afterPath="$PROJECT_DIR$/LearningDataSources/NVPhotoViewModel.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearningDataSources/NVPhotoViewModel.m" afterPath="$PROJECT_DIR$/LearningDataSources/NVPhotoViewModel.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearningDataSources/NVPhotosInteractor.h" afterPath="$PROJECT_DIR$/LearningDataSources/NVPhotosInteractor.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearningDataSources/NVPhotosInteractor.m" afterPath="$PROJECT_DIR$/LearningDataSources/NVPhotosInteractor.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearningDataSources/NVPoint.h" afterPath="$PROJECT_DIR$/LearningDataSources/NVPoint.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearningDataSources/NVPointCollectionHeaderView.h" afterPath="$PROJECT_DIR$/LearningDataSources/NVPointCollectionHeaderView.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearningDataSources/NVPointCollectionHeaderView.m" afterPath="$PROJECT_DIR$/LearningDataSources/NVPointCollectionHeaderView.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearningDataSources/ViewController.m" afterPath="$PROJECT_DIR$/LearningDataSources/ViewController.m" />
     </list>
     <ignored path="LearningDataSources.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,61 +37,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ViewController.m" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LearningDataSources/ViewController.m">
+      <file leaf-file-name="NVPhotoCollectionViewModel.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LearningDataSources/NVPhotoCollectionViewModel.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="95" column="21" selection-start-line="95" selection-start-column="21" selection-end-line="95" selection-end-column="21" />
+            <state relative-caret-position="374">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NVPhotosInteractor.m" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LearningDataSources/NVPhotosInteractor.m">
+      <file leaf-file-name="NVPhotoCollectionViewModelInput.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LearningDataSources/NVPhotoCollectionViewModelInput.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+            <state relative-caret-position="51">
+              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NVPhotoTypeViewModel.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LearningDataSources/NVPhotoTypeViewModel.h">
+      <file leaf-file-name="NVPhotoCollectionViewModelOutput.h" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LearningDataSources/NVPhotoCollectionViewModelOutput.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            <state relative-caret-position="51">
+              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NVPhotoTypeViewModel.m" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LearningDataSources/NVPhotoTypeViewModel.m">
+      <file leaf-file-name="PhotoCollectionViewController.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LearningDataSources/PhotoCollectionViewController.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            <state relative-caret-position="0">
+              <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ViewController.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LearningDataSources/ViewController.h">
+      <file leaf-file-name="NVViewModelConfigurable.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LearningDataSources/NVViewModelConfigurable.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NVPhotoCollectionViewModel.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LearningDataSources/NVPhotoCollectionViewModel.m">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NVPhotoViewModel.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LearningDataSources/NVPhotoViewModel.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -126,7 +102,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
+              <folding>
+                <marker date="1493566133000" expanded="true" signature="360:364" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -136,7 +114,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <folding>
+                <marker date="1493566107000" expanded="true" signature="563:588" ph="{...}" />
+                <marker date="1493566107000" expanded="true" signature="563:741" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -156,7 +137,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
               <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="74" />
-              <folding />
+              <folding>
+                <marker date="1493565307000" expanded="true" signature="85:540" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -169,13 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LearningDataSources/SFPhotoViewModel.h" />
-        <option value="$PROJECT_DIR$/LearningDataSources/SFPointHeaderViewModel.h" />
-        <option value="$PROJECT_DIR$/LearningDataSources/SFPhotoModuleInteractor.h" />
-        <option value="$PROJECT_DIR$/LearningDataSources/SFPhotosInteractor.h" />
-        <option value="$PROJECT_DIR$/LearningDataSources/SFPhoto.m" />
-        <option value="$PROJECT_DIR$/LearningDataSources/SFPhotoTypeHeaderViewModel.m" />
-        <option value="$PROJECT_DIR$/LearningDataSources/SFPhotosInteractor.m" />
         <option value="$PROJECT_DIR$/LearningDataSources/SFPhotoTypeDataSourceFactory.m" />
         <option value="$PROJECT_DIR$/LearningDataSources/SFDataSource.m" />
         <option value="$PROJECT_DIR$/LearningDataSources/PhotoTypeDataSourceAdapter.m" />
@@ -220,6 +196,13 @@
         <option value="$PROJECT_DIR$/LearningDataSources/NVPointViewModel.h" />
         <option value="$PROJECT_DIR$/LearningDataSources/ViewController.m" />
         <option value="$PROJECT_DIR$/LearningDataSources/NVPhotosInteractor.m" />
+        <option value="$PROJECT_DIR$/LearningDataSources/PhotoCollectionViewModel.h" />
+        <option value="$PROJECT_DIR$/LearningDataSources/NVPhotoCollectionViewModel.h" />
+        <option value="$PROJECT_DIR$/LearningDataSources/PhotoCollectionViewModelInput.h" />
+        <option value="$PROJECT_DIR$/LearningDataSources/NVPhotoCollectionViewModelInput.h" />
+        <option value="$PROJECT_DIR$/LearningDataSources/PhotoCollectionViewModelOutput.h" />
+        <option value="$PROJECT_DIR$/LearningDataSources/NVPhotoCollectionViewModelOutput.h" />
+        <option value="$PROJECT_DIR$/LearningDataSources/PhotoCollectionViewController.h" />
       </list>
     </option>
   </component>
@@ -405,7 +388,11 @@
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ViewControllers" />
+              <option name="myItemId" value="ViewModels" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PhotoCollectionViewModel" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -424,10 +411,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ViewControllers" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Support" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -485,35 +468,13 @@
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LearningDataSources" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LearningDataSources" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Core" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataSource" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="OBJC.PRESERVED_TARGET_SELECTION" value="LearningDataSources" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RunManager" selected="Application.LearningDataSources">
@@ -582,12 +543,13 @@
       <workItem from="1493482425329" duration="1971000" />
       <workItem from="1493552224562" duration="944000" />
       <workItem from="1493553571213" duration="691000" />
-      <workItem from="1493554590976" duration="3819000" />
+      <workItem from="1493554590976" duration="4435000" />
+      <workItem from="1493643935147" duration="1016000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36182000" />
+    <option name="totallyTimeSpent" value="37814000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="716" extended-state="6" />
@@ -596,22 +558,22 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27482128" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852563" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852563" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -630,11 +592,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LearningDataSources/GroupsArray.m" />
-    <entry file="file://$PROJECT_DIR$/LearningDataSources/GroupsArray.h" />
-    <entry file="file://$PROJECT_DIR$/LearningDataSources/BaseDataSource+Protected.m" />
-    <entry file="file://$PROJECT_DIR$/LearningDataSources/PhotoTypeDataSource.h" />
-    <entry file="file://$PROJECT_DIR$/LearningDataSources/PhotoTypeDataSource.m" />
     <entry file="file://$PROJECT_DIR$/LearningDataSources/BaseDataSource+Protected.h" />
     <entry file="file://$PROJECT_DIR$/LearningDataSources/NVPhotoType.m">
       <provider selected="true" editor-type-id="text-editor">
@@ -720,13 +677,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LearningDataSources/NVViewModelConfigurable.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LearningDataSources/NVPhotoTypeDataSourceAdapter.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -748,20 +698,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LearningDataSources/NVCollectionViewDelegate.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="2" column="60" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LearningDataSources/NVCollectionViewDelegate.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningDataSources/NVCollectionViewDelegate.h" />
+    <entry file="file://$PROJECT_DIR$/LearningDataSources/NVCollectionViewDelegate.m" />
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UIKit.framework/Headers/UICollectionViewFlowLayout.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -788,7 +726,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="901">
           <caret line="53" column="35" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -796,7 +733,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -804,25 +740,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4046">
           <caret line="238" column="32" selection-start-line="238" selection-start-column="32" selection-end-line="238" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LearningDataSources/NVPhotoTypeDataSourceFactory.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningDataSources/NVPhotoTypeDataSourceFactory.h" />
     <entry file="file://$PROJECT_DIR$/LearningDataSources/NVElement.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <marker date="1493566133000" expanded="true" signature="443:529" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -843,7 +768,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -851,7 +775,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -870,7 +793,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -879,9 +801,9 @@
         <state relative-caret-position="153">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <marker date="1493557736000" expanded="true" signature="149:2087" ph="..." />
-            <marker date="1493557736000" expanded="true" signature="429:453" ph="{...}" />
-            <marker date="1493557736000" expanded="true" signature="2046:2085" ph="{...}" />
+            <marker date="1493569085000" expanded="true" signature="149:2087" ph="..." />
+            <marker date="1493569085000" expanded="true" signature="429:453" ph="{...}" />
+            <marker date="1493569085000" expanded="true" signature="2046:2085" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -890,7 +812,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="61" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -898,14 +819,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="68" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningDataSources/NVPhotoTypeDataSourceFactory.m" />
+    <entry file="file://$PROJECT_DIR$/LearningDataSources/ViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LearningDataSources/NVPhotoTypeDataSourceFactory.m">
+    <entry file="file://$PROJECT_DIR$/LearningDataSources/ViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-237">
-          <caret line="30" column="64" selection-start-line="30" selection-start-column="64" selection-end-line="30" selection-end-column="64" />
+        <state relative-caret-position="2040">
+          <caret line="120" column="21" selection-start-line="120" selection-start-column="21" selection-end-line="120" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningDataSources/NVPhotosInteractor.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -914,6 +851,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <marker date="1493566133000" expanded="true" signature="91:326" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningDataSources/NVPhotoTypeViewModel.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -922,15 +869,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LearningDataSources/NVPoint.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="74" />
-          <folding />
+          <folding>
+            <marker date="1493566133000" expanded="true" signature="83:309" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -938,7 +879,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1493566133000" expanded="true" signature="360:364" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -946,7 +889,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1493566107000" expanded="true" signature="563:588" ph="{...}" />
+            <marker date="1493566107000" expanded="true" signature="563:741" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -958,15 +904,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LearningDataSources/NVPhotoTypeViewModel.m">
+    <entry file="file://$PROJECT_DIR$/LearningDataSources/NVPoint.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        <state relative-caret-position="136">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="74" />
+          <folding>
+            <marker date="1493565307000" expanded="true" signature="85:540" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningDataSources/NVViewModelConfigurable.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LearningDataSources/ViewController.h">
+    <entry file="file://$PROJECT_DIR$/LearningDataSources/NVPhotoCollectionViewModel.m">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -974,18 +930,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LearningDataSources/ViewController.m">
+    <entry file="file://$PROJECT_DIR$/LearningDataSources/NVPhotoCollectionViewModel.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="95" column="21" selection-start-line="95" selection-start-column="21" selection-end-line="95" selection-end-column="21" />
+        <state relative-caret-position="374">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LearningDataSources/NVPhotosInteractor.m">
+    <entry file="file://$PROJECT_DIR$/LearningDataSources/NVPhotoCollectionViewModelInput.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        <state relative-caret-position="51">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningDataSources/PhotoCollectionViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningDataSources/NVPhotoCollectionViewModelOutput.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
           <folding />
         </state>
       </provider>

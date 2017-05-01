@@ -3,7 +3,7 @@
 
 @class NVDataSource;
 
-@interface NVPhotoTypeDataSourceAdapter : NSObject <UICollectionViewDataSource>
+@interface NVCollectionViewDataSourceAdapter : NSObject <UICollectionViewDataSource>
 
 @property (nonatomic) NVDataSource *adaptee;
 

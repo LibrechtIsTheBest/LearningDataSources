@@ -4,10 +4,13 @@
 
 @class NVElement;
 
+typedef CGSize(^NVElementAttributeSizeBlock)(NVElement *element);
+
+
 @interface NVElementAttributes : NSObject
 
 @property (nonatomic, getter=isSelected) BOOL selected;
-@property (nonatomic, copy) CGSize(^elementSize)(NVElement *element);
-@property (nonatomic, copy) void(^onDidSelect)(NSIndexPath *indexPath);
+@property (nonatomic, copy) NVElementAttributeSizeBlock elementSize;
+@property (nonatomic, copy) void(^onDidSelect)(NSInteger index, NSInteger group);
 
 @end

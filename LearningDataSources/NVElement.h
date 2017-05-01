@@ -8,8 +8,10 @@
 @property (nonatomic, readonly) ViewModelType viewModel;
 @property (nonatomic, readonly) NVElementAttributes *attributes;
 
-- (instancetype)initWithReuseIdentifier:(NSString *)reuseIdentifier viewModel:(ViewModelType)viewModel;
+- (instancetype)initWithReuseIdentifier:(NSString *)reuseIdentifier
+    viewModel:(ViewModelType)viewModel;
 
-+ (instancetype)elementWithReuseIdentifier:(NSString *)reuseIdentifier viewModel:(ViewModelType)viewModel;
++ (instancetype)elementWithReuseIdentifier:(NSString *)reuseIdentifier
+    viewModel:(ViewModelType)viewModel;
 
 @end

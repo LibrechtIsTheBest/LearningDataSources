@@ -1,11 +1,11 @@
-#import "NVPhotoTypeDataSourceAdapter.h"
+#import "NVCollectionViewDataSourceAdapter.h"
 // DataSource
 #import "NVDataSource.h"
 // Cells
 #import "NVViewModelConfigurable.h"
 
 
-@implementation NVPhotoTypeDataSourceAdapter
+@implementation NVCollectionViewDataSourceAdapter
 
 #pragma mark - <UICollectionViewDataSource>
 
@@ -26,7 +26,7 @@
     NVElement *element = [self.adaptee elementAtIndex:indexPath.item
         inGroup:indexPath.section];
     UICollectionViewCell <NVViewModelConfigurable> *cell =
-        [collectionView dequeueReusableCellWithReuseIdentifier: element.reuseIdentifier
+        [collectionView dequeueReusableCellWithReuseIdentifier:element.reuseIdentifier
         forIndexPath:indexPath];
     [cell configureWithViewModel:element.viewModel];
     return cell;
