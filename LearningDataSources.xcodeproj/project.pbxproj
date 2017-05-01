@@ -18,7 +18,7 @@
 		F53B0CA91EABB6CB0008F88A /* NVPhotosInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = F53B0CA81EABB6CB0008F88A /* NVPhotosInteractor.m */; };
 		F5BDE6E01EA237A2005B3E52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BDE6DF1EA237A2005B3E52 /* main.m */; };
 		F5BDE6E31EA237A2005B3E52 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BDE6E21EA237A2005B3E52 /* AppDelegate.m */; };
-		F5BDE6E61EA237A2005B3E52 /* PhotoCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BDE6E51EA237A2005B3E52 /* PhotoCollectionViewController.m */; };
+		F5BDE6E61EA237A2005B3E52 /* NVPhotoCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BDE6E51EA237A2005B3E52 /* NVPhotoCollectionViewController.m */; };
 		F5BDE6E91EA237A2005B3E52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5BDE6E71EA237A2005B3E52 /* Main.storyboard */; };
 		F5BDE6EB1EA237A2005B3E52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5BDE6EA1EA237A2005B3E52 /* Assets.xcassets */; };
 		F5BDE6EE1EA237A2005B3E52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5BDE6EC1EA237A2005B3E52 /* LaunchScreen.storyboard */; };
@@ -28,7 +28,7 @@
 		F5BDE7A31EA7C1F0005B3E52 /* NVPhotoTypeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BDE7A21EA7C1F0005B3E52 /* NVPhotoTypeViewModel.m */; };
 		F5BDE7A81EA7C26C005B3E52 /* NVPhotoType.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BDE7A71EA7C26C005B3E52 /* NVPhotoType.m */; };
 		F5BDE7AF1EA7C5E1005B3E52 /* NVPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BDE7AE1EA7C5E1005B3E52 /* NVPhoto.m */; };
-		F5C3DF031EACD6930004EF50 /* NVPhotoTypeDataSourceAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C3DF021EACD6930004EF50 /* NVPhotoTypeDataSourceAdapter.m */; };
+		F5C3DF031EACD6930004EF50 /* NVCollectionViewDataSourceAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C3DF021EACD6930004EF50 /* NVCollectionViewDataSourceAdapter.m */; };
 		F5C3DF081EACD7630004EF50 /* NVPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C3DF061EACD7630004EF50 /* NVPhotoCollectionViewCell.m */; };
 		F5C3DF091EACD7630004EF50 /* NVPhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5C3DF071EACD7630004EF50 /* NVPhotoCollectionViewCell.xib */; };
 		F5C3DF111EACEBB60004EF50 /* NVPhotoTypeCollectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C3DF0F1EACEBB60004EF50 /* NVPhotoTypeCollectionHeaderView.m */; };
@@ -83,8 +83,8 @@
 		F5BDE6DF1EA237A2005B3E52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F5BDE6E11EA237A2005B3E52 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F5BDE6E21EA237A2005B3E52 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F5BDE6E41EA237A2005B3E52 /* PhotoCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoCollectionViewController.h; sourceTree = "<group>"; };
-		F5BDE6E51EA237A2005B3E52 /* PhotoCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoCollectionViewController.m; sourceTree = "<group>"; };
+		F5BDE6E41EA237A2005B3E52 /* NVPhotoCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NVPhotoCollectionViewController.h; sourceTree = "<group>"; };
+		F5BDE6E51EA237A2005B3E52 /* NVPhotoCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NVPhotoCollectionViewController.m; sourceTree = "<group>"; };
 		F5BDE6E81EA237A2005B3E52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F5BDE6EA1EA237A2005B3E52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5BDE6ED1EA237A2005B3E52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -103,8 +103,8 @@
 		F5BDE7A71EA7C26C005B3E52 /* NVPhotoType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVPhotoType.m; sourceTree = "<group>"; };
 		F5BDE7AD1EA7C5E1005B3E52 /* NVPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVPhoto.h; sourceTree = "<group>"; };
 		F5BDE7AE1EA7C5E1005B3E52 /* NVPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVPhoto.m; sourceTree = "<group>"; };
-		F5C3DF011EACD6930004EF50 /* NVPhotoTypeDataSourceAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVPhotoTypeDataSourceAdapter.h; sourceTree = "<group>"; };
-		F5C3DF021EACD6930004EF50 /* NVPhotoTypeDataSourceAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVPhotoTypeDataSourceAdapter.m; sourceTree = "<group>"; };
+		F5C3DF011EACD6930004EF50 /* NVCollectionViewDataSourceAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVCollectionViewDataSourceAdapter.h; sourceTree = "<group>"; };
+		F5C3DF021EACD6930004EF50 /* NVCollectionViewDataSourceAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVCollectionViewDataSourceAdapter.m; sourceTree = "<group>"; };
 		F5C3DF051EACD7630004EF50 /* NVPhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVPhotoCollectionViewCell.h; sourceTree = "<group>"; };
 		F5C3DF061EACD7630004EF50 /* NVPhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVPhotoCollectionViewCell.m; sourceTree = "<group>"; };
 		F5C3DF071EACD7630004EF50 /* NVPhotoCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NVPhotoCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -151,8 +151,8 @@
 		F53B0CA21EABB50F0008F88A /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				F5BDE6E41EA237A2005B3E52 /* PhotoCollectionViewController.h */,
-				F5BDE6E51EA237A2005B3E52 /* PhotoCollectionViewController.m */,
+				F5BDE6E41EA237A2005B3E52 /* NVPhotoCollectionViewController.h */,
+				F5BDE6E51EA237A2005B3E52 /* NVPhotoCollectionViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -340,8 +340,8 @@
 			isa = PBXGroup;
 			children = (
 				F5C3DF131EACEC560004EF50 /* NVViewModelConfigurable.h */,
-				F5C3DF011EACD6930004EF50 /* NVPhotoTypeDataSourceAdapter.h */,
-				F5C3DF021EACD6930004EF50 /* NVPhotoTypeDataSourceAdapter.m */,
+				F5C3DF011EACD6930004EF50 /* NVCollectionViewDataSourceAdapter.h */,
+				F5C3DF021EACD6930004EF50 /* NVCollectionViewDataSourceAdapter.m */,
 			);
 			name = Adapters;
 			sourceTree = "<group>";
@@ -482,7 +482,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5BDE6E61EA237A2005B3E52 /* PhotoCollectionViewController.m in Sources */,
+				F5BDE6E61EA237A2005B3E52 /* NVPhotoCollectionViewController.m in Sources */,
 				F5C3DF1A1EAD07D10004EF50 /* NVPointCollectionHeaderView.m in Sources */,
 				F5BDE6E31EA237A2005B3E52 /* AppDelegate.m in Sources */,
 				F5C3DF081EACD7630004EF50 /* NVPhotoCollectionViewCell.m in Sources */,
@@ -500,7 +500,7 @@
 				D21F6635EC74DD00842B1754 /* NVPhotoViewModel.m in Sources */,
 				D21F6C30F82810BA911F657A /* NVGroup.m in Sources */,
 				D21F6ABE892F2572668C712D /* NVElement.m in Sources */,
-				F5C3DF031EACD6930004EF50 /* NVPhotoTypeDataSourceAdapter.m in Sources */,
+				F5C3DF031EACD6930004EF50 /* NVCollectionViewDataSourceAdapter.m in Sources */,
 				D21F6C7E3D36D1B44A7BE92B /* UIView+NVReusable.m in Sources */,
 				D21F63D493086A59B854068F /* NVElementAttributes.m in Sources */,
 				F5D672B71EB7681500A62E5C /* NVPhotoCollectionViewModel.m in Sources */,
