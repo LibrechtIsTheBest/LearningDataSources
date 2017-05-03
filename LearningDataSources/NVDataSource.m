@@ -80,6 +80,11 @@
     [group removeElementAtIndex:cellIndex];
 }
 
+- (void)deleteAllGroups
+{
+    [self.groups removeAllObjects];
+}
+
 - (void)replaceElementAtIndex:(NSInteger)cellIndex inGroup:(NSInteger)groupIndex withElement:(NVElement *)element
 {
     NVGroup *group = [self groupAtIndex:groupIndex];

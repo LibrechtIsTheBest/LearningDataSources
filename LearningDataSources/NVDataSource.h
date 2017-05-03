@@ -30,6 +30,8 @@
 //Delete
 - (void)deleteElementAtIndex:(NSInteger)cellIndex inGroup:(NSInteger)groupIndex;
 
+- (void)deleteAllGroups;
+
 //Update
 - (void)replaceElementAtIndex:(NSInteger)cellIndex inGroup:(NSInteger)groupIndex
     withElement:(NVElement<CellViewModelType> *)element;
